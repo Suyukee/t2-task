@@ -23,7 +23,7 @@
 	margin-bottom: -1px;
 	height: 32px;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	color: var(--grey-day-400);
 }
 
@@ -51,7 +51,6 @@
 	.list li {
 		width: 100%;
 		height: 30px;
-		align-items: flex-start;
 		font-size: 16px;
 		font-weight: bold;
 		color: #959597;
