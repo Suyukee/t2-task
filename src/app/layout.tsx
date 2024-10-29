@@ -3,13 +3,13 @@ import localFont from 'next/font/local';
 import '@/styles/globals.css';
 
 const tele2TextSansRegular = localFont({
-	src: './fonts/Tele2TextSansWebRegular.woff',
+	src: '../../public/fonts/Tele2TextSansWebRegular.woff',
 	variable: '--font-tele2',
 	style: 'regular',
 });
 
 const tele2TextSansBold = localFont({
-	src: './fonts/Tele2TextSansWebBold.woff',
+	src: '../../public/fonts/Tele2TextSansWebBold.woff',
 	variable: '--font-tele2',
 	style: 'bold',
 });
