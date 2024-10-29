@@ -33,7 +33,7 @@ export default function Header() {
 							{location}
 						</button>
 						<button className={`${styles.button} ${styles.bell}`}>
-							<InboxBell />
+							{!isOpen && <InboxBell />}
 						</button>
 						<button className={`${styles.button} ${styles.humburger}`} onClick={handleOpenMenu}>
 							{!isOpen && <HumburgerIcon />}

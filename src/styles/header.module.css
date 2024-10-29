@@ -6,6 +6,7 @@
 }
 
 .menu {
+	padding: 0 5px;
 	max-width: 1116px;
 	width: 100%;
 	height: 40px;
@@ -49,6 +50,10 @@
 	.menu a svg {
 		width: 48px;
 		height: 18px;
+	}
+
+	.description {
+		gap: 25px;
 	}
 
 	.humburger {
