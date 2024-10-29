@@ -35,7 +35,7 @@
 .location {
 	display: flex;
 	align-items: center;
-	gap: 15px;
+	gap: 10px;
 	color: var(--grey-day-400);
 	font-size: 14px;
 }
