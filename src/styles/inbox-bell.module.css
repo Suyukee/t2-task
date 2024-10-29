@@ -1,0 +1,53 @@
+.box {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bell {
+	animation: bell 1s 1s both infinite;
+}
+
+.notificationBox {
+	position: absolute;
+	top: 1px;
+	right: 0;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 10px;
+	height: 10px;
+	background: var(--foreground);
+	border-radius: 50%;
+}
+
+.notification {
+	z-index: 1;
+	width: 7px;
+	height: 7px;
+	background: #3fcbff;
+	border-radius: 50%;
+}
+
+@keyframes bell {
+	0% {
+		transform: rotate(0);
+	}
+	10% {
+		transform: rotate(20deg);
+	}
+	20% {
+		transform: rotate(0);
+	}
+	80% {
+		transform: rotate(0);
+	}
+	90% {
+		transform: rotate(-20deg);
+	}
+	100% {
+		transform: rotate(0);
+	}
+}
