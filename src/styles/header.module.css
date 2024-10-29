@@ -46,6 +46,11 @@
 		height: 45px;
 	}
 
+	.menu a svg {
+		width: 48px;
+		height: 18px;
+	}
+
 	.humburger {
 		display: block;
 	}
