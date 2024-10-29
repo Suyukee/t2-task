@@ -56,6 +56,9 @@
 		color: #959597;
 		border-bottom: 1px solid #ededed;
 	}
+	.list li a {
+		width: 100%;
+	}
 	.list .active {
 		color: #959597;
 		border-bottom: 1px solid #ededed;
